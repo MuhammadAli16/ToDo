@@ -69,7 +69,7 @@ class TableViewController: UITableViewController {
             cell.priorityView.backgroundColor = UIColor.red
         }
         
-        if(complete == false) {
+        if(!complete) {
             cell.titleLabel.textColor = UIColor.black
         } else {
             cell.titleLabel.textColor = UIColor.darkGray

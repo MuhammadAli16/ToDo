@@ -12,7 +12,7 @@
         <!--To Do View Controller-->
         <scene sceneID="B3C-77-XNK">
             <objects>
-                <viewController id="jua-g4-jOq" customClass="ToDoViewController" customModule="Mock_Exam_ToDos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jua-g4-jOq" customClass="ToDoViewController" customModule="ToDo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mfQ-U0-wdW"/>
                         <viewControllerLayoutGuide type="bottom" id="q67-Qb-jjl"/>
@@ -81,7 +81,7 @@
         <!--Edit-->
         <scene sceneID="vB6-mX-wSp">
             <objects>
-                <viewController id="08p-pB-Bwp" customClass="EditToDoViewController" customModule="Mock_Exam_ToDos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="08p-pB-Bwp" customClass="EditToDoViewController" customModule="ToDo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OHZ-nj-bdg"/>
                         <viewControllerLayoutGuide type="bottom" id="U7d-Bl-yYT"/>
@@ -154,13 +154,13 @@
         <!--Todos-->
         <scene sceneID="6kF-v9-h1j">
             <objects>
-                <tableViewController id="61c-7w-byR" customClass="TableViewController" customModule="Mock_Exam_ToDos" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="61c-7w-byR" customClass="TableViewController" customModule="ToDo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="55" sectionHeaderHeight="28" sectionFooterHeight="28" id="P3g-MH-ATN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToDoTableViewCell" rowHeight="55" id="o29-Yf-RpD" customClass="ToDoTableViewCell" customModule="Mock_Exam_ToDos" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToDoTableViewCell" rowHeight="55" id="o29-Yf-RpD" customClass="ToDoTableViewCell" customModule="ToDo" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="55"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="o29-Yf-RpD" id="5wG-iy-O0M">
@@ -168,7 +168,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Todo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CRs-cx-VGT">
-                                            <rect key="frame" x="14" y="17" width="142" height="21"/>
+                                            <rect key="frame" x="14" y="17" width="255" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -212,7 +212,7 @@
         <!--Add-->
         <scene sceneID="WRJ-0i-kh4">
             <objects>
-                <viewController id="FNZ-1z-JDR" customClass="AddToDoViewController" customModule="Mock_Exam_ToDos" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FNZ-1z-JDR" customClass="AddToDoViewController" customModule="ToDo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lcY-QM-Hrp"/>
                         <viewControllerLayoutGuide type="bottom" id="JWk-oP-5sh"/>
